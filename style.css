@@ -681,7 +681,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 750px;
     margin: auto auto auto auto;
 }
 
@@ -773,10 +773,17 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
-
+.adresse {
+    
+    padding-left: 100px;
+}
+.formulaire {
+    font-size: 20px!important;
+    color: #000000!important;
+}
 .tc-white {
-    color: #F3976C!important;
-    font-size: 30px;
+    color: #FFFFFF!important;
+    font-size: 35px;
     font-weight: 700;
 }
 

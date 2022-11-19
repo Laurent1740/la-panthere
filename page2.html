@@ -34,17 +34,8 @@
 								<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 							</button>
 						</div>
-						<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-							<ul class="site-navigation nav navbar-nav">
-								<li>
-									<a href="index.html">Accueil</a>
-								</li>
-								<li>
-								</li>
-								<li>
-									<a href="page2.html">page2</a>
-								</li>
-							</ul>
+						<div class="collapse navbar-collapse navbar-1 special-dropdown-nav site-navigation nav navbar-nav">
+							<a href="index.html">Accueil</a>
 						</div>
 					</nav>
 				</div>
@@ -104,9 +95,19 @@
 							</form>
 						</div>
 						<div class="col-sm-6">
-							<p>
-								contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-							</p>
+							<div class="adresse" itemscope itemtype="https://schema.org/Store">
+								<span class="formulaire" itemprop="name">Agence La Panthère </br></span>
+								<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+									<span class="formulaire" itemprop="streetAddress">2 place Sathonay</span>,
+									<span class="formulaire" itemprop="postalCode">69001</span>
+									<span class="formulaire" itemprop="addressLocality">Lyon</span>,
+									<span itemprop="addressCountry" itemscope itemtype="https://schema.org/Country">
+										<span class="formulaire" itemprop="name">France</span>
+									</span>
+									<p class="formulaire">Ouvert de 9h à 18h, du lundi au vendredi</p>
+									<a href="mailto:" class="formulaire"><u>contact@agencelapanthere.com</u></a>
+								</div>
+							  </div>
 						</div>
 					</div>
 				</div>
