@@ -156,7 +156,7 @@ li::marker {
     font-size: 20px;
 }
 .temoignage--color {
-    color: rgb(149, 149, 149)!important;
+    color: #757575!important;
 }
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -677,6 +677,9 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+}
+.panthere-presentation {
+    color: #000000!important;
 }
 .descriptif-img-crea {
     font-size: 16px;
