@@ -118,12 +118,13 @@ a:hover {
 .d-bloc .divider-h span {
     border-color: rgba(255, 255, 255, .2);
 }
-
+.realisation-text {
+    font-size: 24px;
+}
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -136,6 +137,27 @@ a:hover {
     color: rgba(255, 255, 255, .6);
 }
 
+.d-bloc a .icon-md {
+    color: #000000;
+}
+.footer__list {
+    color: #000000!important;
+    font-size: 18px;
+}
+.list__link {
+    color: #000000!important;
+    font-size: 16px;
+    
+}
+li::marker {
+    color : black;
+}
+.temoignage {
+    font-size: 20px;
+}
+.temoignage--color {
+    color: rgb(149, 149, 149)!important;
+}
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -286,7 +308,10 @@ a:hover {
 #bloc-1-hero h1 {
     font-size: 32px;
 }
-
+.text-center {
+    margin-top : 0!important;
+    padding-bottom : 10px;
+}
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -736,7 +761,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
     font-size: 20px;
 }
 
