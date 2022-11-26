@@ -315,6 +315,9 @@ li::marker {
     margin-top : 0!important;
     padding-bottom : 10px;
 }
+.descriptif-activité {
+    font-size: 16px;
+}
 .navbar {
     margin-bottom: 0;
     z-index: 1;
